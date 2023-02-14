@@ -1,0 +1,36 @@
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+    border: 1px solid orangered;
+}
+.nav_items ul{
+    list-style: none;
+    display: flex;
+}
+.nav_items ul li{
+    padding: 8px;
+}
+.header img
+{
+    width: 80px;
+}
+.card
+{
+    width:200px;
+    border: 2px solid orangered;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 14px;
+}
+.card img
+{
+    width: 100%;
+}
+.rest_list
+{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
